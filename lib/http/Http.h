@@ -6,7 +6,7 @@
 #define BEASTFUZZ_HTTP_H
 
 /**
- * An Http Class for betterment of hacking JSON.
+ * An http Class for betterment of hacking JSON.
  */
 class Http {
 private:
