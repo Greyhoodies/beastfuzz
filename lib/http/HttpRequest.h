@@ -16,13 +16,12 @@ class HttpRequest {
     CURL *curl;
     CURLcode res;
 public:
-
+    static class Builder;
 };
 
 static class HttpRequest::Builder {
     HttpRequest buildRequest;
 public:
-
     HttpRequest url(HttpUrl url);
 };
 
