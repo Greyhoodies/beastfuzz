@@ -4,7 +4,7 @@
 
 #ifndef BEASTFUZZ_HTTP_H
 #define BEASTFUZZ_HTTP_H
-
+#include <curl/curl.h>
 /**
  * An http Class for betterment of hacking JSON.
  */
